@@ -35,7 +35,7 @@
 
                         <p>
 
-                            nome </p>
+                            Jogador </p>
 
 
                     </div>
@@ -94,7 +94,7 @@
                 </div>
 
 
-                <div class=" resultado">
+                <div class=" resultado" id="result">
 
 
 
@@ -167,10 +167,24 @@
 
         function resultado(a, b) {
 
-            resultado = da[0] + b;
+            if (som1 > som2) {
+
+                document.getElementById("result").innerHTML = " Jogador venceu";
+
+            } else
+            if (som1 < som2) {
+
+                document.getElementById("result").innerHTML = " Computador venceu";
+            } else
+                document.getElementById("result").innerHTML = "  Empate";
+
+
         }
 
+
+
         window.onload = validado();
+        window.onload = resultado();
     </script>
 
 

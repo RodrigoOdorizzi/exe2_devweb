@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
- 
+
 
 
 <html lang="pt-BR">
@@ -21,27 +21,21 @@
 
     <div class="geral">
         <div class="cont" style="border: 1px solid #000; width: 300px; height:300px; margin-top:150px  ">
- 
-<p style="font-size: 20px;">
 
-Jogo dos dados
-</p>
+            <p style="font-size: 20px;">
 
-<form action="result.php" method="POST">
+                Jogo dos dados
+            </p>
 
-        <input type="text" name="nome" id="nome" value="Informe seu nome" class="meunome"> 
+            <a href="result.php" target="_black">
+
+                <input type="submit" name="subimite" value="Jogar!" class="meubotao">
+
+            </a>
 
 
-        <a href="result.php" target="_black">
-            
-        <input type="submit" name="subimite" value="Jogar!" class="meubotao">
-        
-    </a>
-
-</form>
-
-           </div> 
-           </div>
+        </div>
+    </div>
 </body>
 
 </html>
