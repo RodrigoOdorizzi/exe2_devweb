@@ -1,2 +1,2 @@
-# exe2_devweb
-Exercicio 2 Desenvolvimento web
+# exe_1devweb
+Exercício 1 desenvolvimento web
